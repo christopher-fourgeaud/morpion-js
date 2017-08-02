@@ -1,3 +1,64 @@
-.col-lg-12 {
-  background-color: blue;
+img {
+  width: 100px;
+  height: 100px;
 }
+
+
+.casespe1 {
+  border-style: solid;
+  border-width: 0px 2px 2px 0px;
+  width: 150px;
+  height: 150px;
+}
+.casespe2 {
+  border-style: solid;
+  border-width: 0px 2px 2px 2px;
+  width: 150px;
+  height: 150px;
+}
+.casespe3 {
+  border-style: solid;
+  border-width: 0px 0px 2px 2px;
+  width: 150px;
+  height: 150px;
+}
+.casespe4 {
+  border-style: solid;
+  border-width: 2px 2px 2px 0px;
+  width: 150px;
+  height: 150px;
+}
+.casespe5 {
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  width: 150px;
+  height: 150px;
+}
+.casespe6 {
+  border-style: solid;
+  border-width: 2px 0px 2px 2px;
+  width: 150px;
+  height: 150px;
+}
+
+.casespe7 {
+  border-style: solid;
+  border-width: 2px 2px 0px 0px;
+  width: 150px;
+  height: 150px;
+}
+.casespe8 {
+  border-style: solid;
+  border-width: 2px 2px 0px 2px;
+  width: 150px;
+  height: 150px;
+}
+.casespe9 {
+  border-style: solid;
+  border-width: 2px 0px 0px 2px;
+  width: 150px;
+  height: 150px;
+}
+
+
+
