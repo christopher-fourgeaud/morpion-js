@@ -8,31 +8,46 @@ var player1 = prompt("Nom du joueur 1 :");
 var player2 = prompt("Nom du joueur 2 :");
 var data;
 
+//======Fonction pour reset le tableau =========//
+function reset() {
+        tour = 0;
+        $(".case").html("");
+        position = ["0", "0", "0", "0", "0", "0", "0", "0", "0"];
+}
+
 //======Fonction pour la condition de vicctoire=//
 function condition(arg1, arg2) {	
 	if(position[0] === arg1 && position[1] === arg1 && position[2] === arg1) {
 		alert("Joueur" +" "+ arg2+ " " + "gagne!");
+		reset();
 	}
 	if(position[3] === arg1 && position[4] === arg1 && position[5] === arg1) {
 		alert("Joueur" +" "+ arg2+ " " + "gagne!");
+		reset();
 	}
 	if(position[6] === arg1 && position[7] === arg1 && position[8] === arg1) {
 		alert("Joueur" +" "+ arg2+ " " + "gagne!");
+		reset();
 	}
 	if(position[0] === arg1 && position[3] === arg1 && position[6] === arg1) {
 		alert("Joueur" +" "+ arg2+ " " + "gagne!");
+		reset();
 	}
 	if(position[1] === arg1 && position[4] === arg1 && position[7] === arg1) {
 		alert("Joueur" +" "+ arg2+ " " + "gagne!");
+		reset();
 	}
 	if(position[2] === arg1 && position[5] === arg1 && position[8] === arg1) {
 		alert("Joueur" +" "+ arg2+ " " + "gagne!");
+		reset();
 	}
 	if(position[0] === arg1 && position[4] === arg1 && position[8] === arg1) {
 		alert("Joueur" +" "+ arg2+ " " + "gagne!");
+		reset();
 	}
 	if(position[2] === arg1 && position[4] === arg1 && position[6] === arg1) {
 		alert("Joueur" +" "+ arg2+ " " + "gagne!");
+		reset();
 	}
 }
 //== Click function pour afficher les images + Alerte match nul si + de 9 tours ===//
@@ -51,6 +66,7 @@ $(".case").click(function(){
 	}
 	if (tour === 9) {
 		alert("MATCH NUL");
+		reset();
 	}
 });
 
