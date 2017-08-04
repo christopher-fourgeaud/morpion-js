@@ -4,15 +4,29 @@ var tour = 0;
 var joueur1 = 1;
 var joueur2 = 2;
 var position =["0","0","0","0","0","0","0","0","0"];
-var player1 = prompt("Nom du joueur 1 :");
-var player2 = prompt("Nom du joueur 2 :");
+var player1;
+var player2;
 var data;
+var nbParties;
+
+
+//======== Affichage au chargement de la page des paramètres des parties ====//
+$("#newGame").modal("toggle");
+
+//====================== Bouton Nouvelle partie ==//
+$("#parametres").click(function(){
+	player1 = $(".player1").val();
+	player2 = $(".player2").val();
+	nbParties = $(".joueur1").val();
+	$(".joueurs").html(player1 + " VS " + player2);
+	reset();
+});
 
 //======Fonction pour reset le tableau =========//
 function reset() {
-        tour = 0;
-        $(".case").html("");
-        position = ["0", "0", "0", "0", "0", "0", "0", "0", "0"];
+	tour = 0;
+	$(".case").html("");
+	position = ["0", "0", "0", "0", "0", "0", "0", "0", "0"];
 }
 
 //======Fonction pour la condition de vicctoire=//
@@ -69,9 +83,6 @@ $(".case").click(function(){
 		reset();
 	}
 });
-
-//============= Affiche le nom des joueurs======//
-$(".joueurs").html(player1 + " VS " + player2);
 
 //====================== Bouton reset ===========//
 $(".clear").click(function(){

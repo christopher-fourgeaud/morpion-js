@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Morpion</title>
 	<!-- 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"> -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
@@ -26,10 +26,42 @@
 			<div class="col-sm-2 col-xs-4 case casespe9" data-col=9></div>	
 		</div>
 		<div class="row">
-			<button class="col-sm-offset-2 btn btn-danger">Reset</button>
+			<button class="col-sm-offset-1 btn btn-danger clear">Reset</button>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="Joueur1">Nouvelle partie</button>
+		</div>
+	
+		<div class="modal fade" id="param" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="exampleModalLabel">Paramètres du jeu</h4>
+					</div>
+					<div class="modal-body">
+						<form>
+							<div class="form-group">
+							<label for="recipient-name" class="control-label">Joueur 1</label>
+								<input type="text" class="form-control player1" id="recipient-name">
+							</div>
+							<div class="form-group">
+							<label for="recipient-name" class="control-label">Joueur 2</label>
+								<input type="text" class="form-control player2" id="recipient-name">
+							</div>
+							<div class="form-group">
+							<label for="recipient-name" class="control-label">Nombre de parties</label>
+								<input type="text" class="form-control nbParties" id="recipient-name">
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Annuler</button>
+						<button type="button" id ="parametres" class="btn btn-primary valider" data-dismiss="modal">Valider</button>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="row">
-			<h2 class="col-sm-offset-1 joueurs"></h2>
+			<h2 class="joueurs"></h2>
 		</div>
 
 		
@@ -39,6 +71,7 @@
 	
 	<!-- <script src="node_modules/jquery/dist/jquery.js"></script> -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="script.js"></script>
 </body>
 </html>
