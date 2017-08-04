@@ -14,6 +14,11 @@ var nbParties;
 $("#newGame").modal("toggle");
 
 //====================== Bouton Nouvelle partie ==//
+$("#nouvellePartie").click(function(){
+	$("#newGame").modal("toggle");
+})
+
+//========= Bouton valider du menu nouvelle partie ====//
 $("#parametres").click(function(){
 	player1 = $(".player1").val();
 	player2 = $(".player2").val();
