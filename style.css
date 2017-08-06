@@ -1,4 +1,235 @@
-img {
+/*[class*="col-lg"]{
+ background-color: lightgreen;
+ border: 2px solid black;          
+ border-radius: 6px;
+ line-height: 40px;
+ text-align: center;
+}*/
+
+.titre {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.nomJoueur1 {
+ border-style:  solid;
+ border-color: black;
+ border-width: 2px 0.5px 2px 2px;          
+ border-radius: 6px 0px 0px 6px;
+ line-height: 40px;
+ text-align: center;
+ background-color: #C14242;
+ color : white;
+}
+.scoreJoueur1 {
+ border-style:  solid;
+ border-color: black;
+ border-width: 2px 2px 2px 0px;          
+ border-radius: 0px 6px 6px 0px;
+ line-height: 40px;
+ text-align: center;
+ font-weight: bold;
+ background-color: lightgrey;
+}
+
+.vs {
+ text-align: center;
+ line-height: 40px;
+ font-weight: bold;
+}
+
+.nomJoueur2 {
+ border-style:  solid;
+ border-color: black;
+ border-width: 2px 2px 2px 0px;         
+ border-radius: 0px 6px 6px 0px;
+ line-height: 40px;
+ text-align: center;/*
+ background-color : red;*/
+}
+.scoreJoueur2 {
+ border-style:  solid;
+ border-width: 2px 0.5px 2px 2px;          
+ border-radius: 6px 0px 0px 6px;
+ line-height: 40px;
+ text-align: center;
+ font-weight: bold;
+ background-color: lightgrey;
+}
+
+.grille{
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.bouttonReset{
+  margin-top: 50px;
+}
+
+.o {
+  margin-top: 8px;
+  width: 100px;
+  height: 100px;
+}
+
+.x {
+  margin-top: 8px;
+  width: 100px;
+  height: 100px;
+}
+.no-padding > [class*='col-'] {
+    padding : 0;
+}
+.case-border1 {
+  border-style: solid;
+  border-width: 0px 2px 2px 0px;
+  width: 120px;
+  height: 120px;
+}
+.case-border2 {
+  border-style: solid;
+  border-width: 0px 2px 2px 2px;
+  width: 120px;
+  height: 120px;
+}
+.case-border3 {
+  border-style: solid;
+  border-width: 0px 0px 2px 2px;
+  width: 120px;
+  height: 120px;
+}
+.case-border4 {
+  border-style: solid;
+  border-width: 2px 2px 2px 0px;
+  width: 120px;
+  height: 120px;
+}
+.case-border5 {
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  width: 120px;
+  height: 120px;
+}
+.case-border6 {
+  border-style: solid;
+  border-width: 2px 0px 2px 2px;
+  width: 120px;
+  height: 120px;
+}
+
+.case-border7 {
+  border-style: solid;
+  border-width: 2px 2px 0px 0px;
+  width: 120px;
+  height: 120px;
+}
+.case-border8 {
+  border-style: solid;
+  border-width: 2px 2px 0px 2px;
+  width: 120px;
+  height: 120px;
+}
+.case-border9 {
+  border-style: solid;
+  border-width: 2px 0px 0px 2px;
+  width: 120px;
+  height: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*img {
   width: 90%;
   height: 90%;
 }
@@ -18,59 +249,6 @@ button {
   margin-top: 20px;
 }
 
-.casespe1 {
-  border-style: solid;
-  border-width: 0px 2px 2px 0px;
-  width: 120px;
-  height: 120px;
-}
-.casespe2 {
-  border-style: solid;
-  border-width: 0px 2px 2px 2px;
-  width: 120px;
-  height: 120px;
-}
-.casespe3 {
-  border-style: solid;
-  border-width: 0px 0px 2px 2px;
-  width: 120px;
-  height: 120px;
-}
-.casespe4 {
-  border-style: solid;
-  border-width: 2px 2px 2px 0px;
-  width: 120px;
-  height: 120px;
-}
-.casespe5 {
-  border-style: solid;
-  border-width: 2px 2px 2px 2px;
-  width: 120px;
-  height: 120px;
-}
-.casespe6 {
-  border-style: solid;
-  border-width: 2px 0px 2px 2px;
-  width: 120px;
-  height: 120px;
-}
 
-.casespe7 {
-  border-style: solid;
-  border-width: 2px 2px 0px 0px;
-  width: 120px;
-  height: 120px;
-}
-.casespe8 {
-  border-style: solid;
-  border-width: 2px 2px 0px 2px;
-  width: 120px;
-  height: 120px;
-}
-.casespe9 {
-  border-style: solid;
-  border-width: 2px 0px 0px 2px;
-  width: 120px;
-  height: 120px;
-}
 
+*/
